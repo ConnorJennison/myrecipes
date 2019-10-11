@@ -6,6 +6,13 @@ $navbar-default-bg: #073b15;
 .center {
 	text-align: center;
 }
+
+.jumbotron{
+	background-image: asset-url('cover_image.png');
+	background-size: cover;
+	background-height: 300px;
+	background-position: 0px -120px;
+}
 #logo{
 	flag: left;
 	font-size: 1.7em;
@@ -18,4 +25,12 @@ $navbar-default-bg: #073b15;
 #logo:hover{
 	color:#fff;
 	text-decoration: none;
+}
+
+.jumbotron h1, h2 {
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+	letter-spacing: -1px;
+	font-weight: bold;
 }
